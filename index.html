@@ -9,17 +9,121 @@
   </head>
   <body>
     <header class="navbar w-full">
-      <div class="flex justify-between px-100 pt-30">
+      <div class="flex justify-between px-100 pt-30 items-center">
         <div class="navbar__logo flex flex-row items-center">
           <img src="./img/logo.svg" alt="logo" class="logo-image w-45 mr-3" />
-          <h3 class="logo-text font-semibold text-22">telepatia</h3>
+          <h3 class="logo-text font-semibold text-22 text-cstDarkBlue">
+            telepatia
+          </h3>
         </div>
         <div class="nav">
-          <ul>
-            <li></li>
+          <ul class="nav__list flex gap-5">
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link text-base font-medium text-cstPurple1"
+              >
+                Features
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link text-base font-normal text-cstDarkBlue"
+              >
+                Pricing
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link text-base font-normal text-cstDarkBlue"
+              >
+                Stories
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link text-base font-normal text-cstDarkBlue"
+              >
+                Premium
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link text-base font-normal text-cstDarkBlue"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
+    <section class="hero w-full mt-100">
+      <div class="flex p-100">
+        <div class="hero__image w-6/12 pl-20">
+          <div class="hero__box-image relative">
+            <img
+              src="./img/dotted-box.svg"
+              alt="dotted-box"
+              class="mx-auto z-10"
+            />
+            <div class="person-box1 w-240 h-310 absolute z-20 top-120">
+              <img
+                src="./img/flag-eng.svg"
+                alt="flag-eng"
+                class="w-70 z-30 absolute -top-2 -left-2"
+              />
+              <img class="person1-box" src="./img/person1.png" />
+            </div>
+            <div
+              class="person-box2 w-240 h-310 absolute z-20 -top-12 -right-025"
+            >
+              <img
+                src="./img/flag-spain.svg"
+                alt="flag-spain"
+                class="w-70 z-30 absolute -top-2 -left-2"
+              />
+              <img class="person2-box" src="./img/person2.png" />
+            </div>
+            <div
+              class="speed-box w-297 bg-white shadow-3xl flex rounded-14 p-14 items-center absolute z-40 -bottom-23 right-50"
+            >
+              <div class="w-6/12 flex">
+                <img
+                  src="./img/ic_wifi.svg"
+                  alt="wifi-icon"
+                  class="items-center w-14"
+                />
+                <div class="pl-2">
+                  <h5 class="text-cstGrey font-normal">Speed Up to</h5>
+                  <h5 class="text-cstDarkBlue font-medium">20Gbps</h5>
+                </div>
+              </div>
+              <div class="w-6/12">
+                <h5 class="text-cstDarkBlue font-normal">
+                  In a Call
+                  <span class="text-cstPurple1 font-medium">1:30:00</span>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__text w-6/12 pl-21">
+          <h1 class="heading">Always Connected. No Lagging.</h1>
+          <p class="subheading pr-24 mt-5 mb-10">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form
+          </p>
+          <div class="buttons">
+            <button class="button1 mr-4">See Pricing</button>
+            <button class="button2">Testimonials</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

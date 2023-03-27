@@ -7,3 +7,25 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
+@layer components {
+  .heading {
+    @apply text-46 text-cstDarkBlue font-semibold leading-60;
+  }
+
+  .subheading {
+    @apply text-lg text-cstGrey font-normal leading-30;
+  }
+
+  .button1 {
+    @apply bg-cstPurple1 text-white text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .button2 {
+    @apply bg-cstGreyLight text-cstGreyDark text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .speed-box {
+    font-family: "Roboto", sans-serif;
+  }
+}
