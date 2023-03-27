@@ -12,6 +12,7 @@ module.exports = {
         'cstGreyDark': '#777790',
         'cstGreyLight': '#EAEBF4',
         'cstGreyWhite': '#F9F9FB',
+        'cstCyan': '#3ABAD6',
       },
       fontSize: {
         '22': '22px',
@@ -29,6 +30,7 @@ module.exports = {
         '120': '120px',
         '240': '240px',
         '297': '297px',
+        '300': '300px',
         '310': '310px',
         '316': '316px',
         '366': '366px',
@@ -41,7 +43,8 @@ module.exports = {
       },
       borderRadius: {
         '10': '10px',
-        '14': '14px'
+        '14': '14px',
+        '22': '22px',
       },
       boxShadow: {
         '3xl': '4px 6px 30px rgba(0, 0, 0, 0.05);'

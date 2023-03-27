@@ -10,7 +10,7 @@ body {
 
 @layer components {
   .heading {
-    @apply text-46 text-cstDarkBlue font-semibold leading-60;
+    @apply text-46 text-cstDarkBlue font-semibold leading-60 mb-5;
   }
 
   .subheading {
@@ -18,14 +18,30 @@ body {
   }
 
   .button1 {
-    @apply bg-cstPurple1 text-white text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-lg;
+    @apply bg-cstPurple1 text-white text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-2xl;
   }
 
   .button2 {
-    @apply bg-cstGreyLight text-cstGreyDark text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-lg;
+    @apply bg-cstGreyLight text-cstGreyDark text-lg font-semibold px-6 py-14 rounded-10 transition-all duration-300 hover:shadow-2xl;
   }
 
   .speed-box {
     font-family: "Roboto", sans-serif;
+  }
+
+  .budget-box {
+    @apply w-300 rounded-22 p-30;
+  }
+
+  .budget-type {
+    @apply text-lg font-medium mb-4;
+  }
+
+  .budget-title {
+    @apply text-4xl font-bold mb-4;
+  }
+
+  .budget-desc {
+    @apply text-base font-normal mb-10;
   }
 }
